@@ -51,7 +51,7 @@ function addRepository(repository) {
 	  <span class="repoInfo">Name: ${repository.name}<br>
 	  Owner: ${repository.owner.login}<br>
 	  Stars: ${repository.stargazers_count}</span>
-	  <button class="remove-btn"><img src="/src/second.svg" class='img' /><img src="/src/first.svg" />
+	  <button class="remove-btn"><img src="./src/second.svg" class='img' /><img src="./src/first.svg" />
 	  </button>
 	`
 	);
