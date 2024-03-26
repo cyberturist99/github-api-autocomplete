@@ -1,0 +1,71 @@
+ul {
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+.input {
+	margin-bottom: 45px;
+	cursor: pointer;
+}
+
+#search {
+	width: 500px;
+	height: 61px;
+	font-family: Roboto;
+	font-size: 48px;
+	font-weight: 400;
+	text-align: left;
+	padding: 0;
+}
+
+#autocomplete > li {
+	font-family: Roboto;
+	font-size: 30px;
+	font-weight: 400;
+	line-height: 35.16px;
+	text-align: left;
+	border: 2px solid black;
+	cursor: pointer;
+	width: 500px;
+	height: 44px;
+	background-color: rgba(227, 227, 227, 1);
+}
+
+#autocomplete li:hover {
+	background-color: rgba(101, 205, 249, 1);
+}
+
+#repositories > li {
+	width: 470px;
+	height: 101px;
+	font-family: Roboto;
+	font-size: 24px;
+	font-weight: 400;
+	text-align: left;
+	border: 1px solid black;
+	display: flex;
+	padding: 8px 16px 8px 16px;
+	justify-content: space-between;
+}
+
+.repoInfo {
+	justify-self: center;
+	align-self: center;
+}
+
+.remove-btn {
+	border: none;
+	background-color: rgba(226, 123, 235, 1);
+	cursor: pointer;
+	margin-right: 10px;
+}
+
+.img {
+	position: relative;
+	left: 46px;
+}
+
+.hidden {
+	display: none;
+}
