@@ -23,7 +23,7 @@ function debounce(func, delay) {
 
 function updateAutocomplete(query) {
 	autocomplete.classList.remove("hidden");
-	if (query.length === 0) {
+	if (!query.length) {
 		autocomplete.classList.add("hidden");
 		return;
 	}
